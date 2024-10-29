@@ -1,0 +1,12 @@
+- route:
+    id: route-2264
+    nodePrefixId: route-92c
+    from:
+      id: from-08bf
+      uri: kamelet:timer-source
+      parameters:
+        message: hello world
+      steps:
+        - log:
+            id: log-a4d8
+            message: ${body}
